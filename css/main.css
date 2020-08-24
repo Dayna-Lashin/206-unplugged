@@ -129,11 +129,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -168,6 +168,14 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
   width: 100%;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -242,6 +250,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  min-height: 500px;
+  background: url("../img/hero-area-background.jpg") center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -293,6 +304,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/features-background.jpg") center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -531,6 +544,10 @@ input[type=button] {
 
       /* Hero Area */
 
+      .hero-area {
+        min-height: 600px;
+      }
+
       .hero-area h1 {
         font-size: 3em;
         line-height: 1;
@@ -581,6 +598,7 @@ input[type=button] {
         width: 85%;
       }
 
+      .reviews article figure,
       .reviews article div {
         width: 49%;
       }
@@ -677,11 +695,6 @@ input[type=button] {
   /* desktop styles here */
 
   /* General styles */
-
-  header {
-    padding: 15px 0;
-  }
-
   .content-wrapper {
     max-width: 960px;
   }
@@ -699,10 +712,16 @@ input[type=button] {
     line-height: 1.333;
   }
 
+  /* Header */
+
+  header {
+    padding: 15px 0;
+  }
+
   /* Hero Area */
 
   .hero-area h1 {
-    width: 70%;
+    width: 80%;
     font-size: 3.75em;
   }
 
@@ -737,6 +756,11 @@ input[type=button] {
 
   .reviews h2 {
     padding-bottom: 50px;
+  }
+
+    /* footer */
+  footer h4 {
+    font-size: 1.875em;
   }
 
   /* ==========================================================================
