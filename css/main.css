@@ -372,7 +372,7 @@ input[type=button] {
 
 .reviews h2 {
   line-height: 1;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .reviews h3 {
@@ -449,6 +449,8 @@ input[type=button] {
 .faq h2 {
   line-height: 1;
   margin-bottom: 40px;
+  text-align: left;
+  width: 100%;
 }
 
 .faq-content {
@@ -753,6 +755,7 @@ input[type=button] {
 
   .faq h2 {
     width: 100%;
+    text-align: left;
   }
 
   .faq h4,
@@ -828,7 +831,7 @@ input[type=button] {
 
   /* Reviews */
   .reviews h2 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .reviews article div {
